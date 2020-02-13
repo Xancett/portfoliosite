@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: gray;
+    background-color: #3E3E3E;
     border: none;
     display: flex;
     justify-content: space-between;
@@ -21,13 +21,14 @@ body {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
+    letter-spacing: 0.25em;
 }
 
 .navbar .container-navigation ul {
     list-style: none;
     display: flex;
-    
-    padding: 1em 2em;
+    padding-top: 1em;
+    padding-right: 0.5em;
 }
 
 .navbar .container-navigation ul li {
