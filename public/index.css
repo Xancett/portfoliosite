@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: gray;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .container-name {
+    font-size: 1.5em;
+    padding: 2em 1em;
+}
+
+.navbar .container-name a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navbar .container-navigation ul {
+    list-style: none;
+    display: flex;
+    
+    padding: 1em 2em;
+}
+
+.navbar .container-navigation ul li {
+    padding-right: 4em;
+    padding-top: 1em;
+    color: white;
+}
