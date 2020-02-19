@@ -50,6 +50,30 @@ body {
 
 .container-projects {
     background-color: aquamarine;
+    width: 100%;
+    text-align: center;
+}
+
+.container-projects .btn-group {
+    margin-left: 20%;
+    border-style: dashed;
+    border-width: thin;
+}
+
+.container-projects button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 20px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .content {
