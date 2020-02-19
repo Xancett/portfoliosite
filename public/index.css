@@ -36,3 +36,14 @@ body {
     padding-top: 1em;
     color: white;
 }
+
+.container-job {
+    text-align: center;
+    padding-top: 5em;
+}
+
+.container-information {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
