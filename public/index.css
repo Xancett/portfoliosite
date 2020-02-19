@@ -48,3 +48,11 @@ body {
     padding-top: 2em;
 }
 
+.container-projects {
+    background-color: aquamarine;
+}
+
+.content {
+    display: none;
+    overflow: hidden;
+}
