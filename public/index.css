@@ -76,6 +76,14 @@ body {
     display: table;
 }
 
+.content table {
+    border-style: solid;
+}
+
+.content table th {
+    width: 50%;
+}
+
 .content {
     display: none;
     text-align: center;
