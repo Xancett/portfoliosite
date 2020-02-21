@@ -19,6 +19,7 @@ body {
 
 .navbar .container-name a {
     color: white;
+    background-color: #3E3E3E;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.25em;
@@ -40,6 +41,7 @@ body {
 .container-job {
     text-align: center;
     padding-top: 5em;
+    padding-bottom: 3em;
 }
 
 .container-information {
@@ -49,10 +51,10 @@ body {
 }
 
 .container-projects {
-    background-color: #939196;
+    background-color: #dcedff;
     width: 100%;
     text-align: center;
-    color: white;
+    color: #3E3E3E;
     padding-top: 1em;
     padding-bottom: 2em;
 }
@@ -64,10 +66,10 @@ body {
 }
 
 .container-projects button {
-    background-color: #ffe2fe;
-    border: 1px solid #939196;
+    background-color: #94b0da;
+    border: 10px solid #dcedff;
     color: #646881;
-    padding: 40px 20px;
+    padding: 120px 20px;
     cursor: pointer;
     float: left;
     font-size: large;
@@ -91,6 +93,15 @@ body {
 .content {
     display: none;
     text-align: center;
+}
+
+.container-contact {
+    background-color: #aa4465;
+    color: white;
+    text-align: center;
+    margin-top: -1.5em;
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
 
 /* Color pallet */
