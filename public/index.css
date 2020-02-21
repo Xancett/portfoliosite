@@ -49,9 +49,12 @@ body {
 }
 
 .container-projects {
-    background-color: aquamarine;
+    background-color: #939196;
     width: 100%;
     text-align: center;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
 
 .container-projects .btn-group {
@@ -61,12 +64,13 @@ body {
 }
 
 .container-projects button {
-    background-color: #4CAF50; /* Green background */
-    border: 1px solid green; /* Green border */
-    color: white; /* White text */
-    padding: 10px 20px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
+    background-color: #ffe2fe;
+    border: 1px solid #939196;
+    color: #646881;
+    padding: 40px 20px;
+    cursor: pointer;
     float: left;
+    font-size: large;
 }
 
 /* Clear floats (clearfix hack) */
@@ -88,3 +92,10 @@ body {
     display: none;
     text-align: center;
 }
+
+/* Color pallet */
+/* Dark grey #3E3E3E */ 
+/* Light grey #939196 */ 
+/* Dark pink #d3c1d2 */ 
+/* Light pink #ffe2fe */
+/* Dark blue #646881 */ 
