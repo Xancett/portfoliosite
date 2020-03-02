@@ -47,7 +47,7 @@ body {
     margin-right: 15%;
     margin-top: 2em;
     border: 1px solid rgb(100, 100, 100);
-    box-shadow: 5px 10px black;
+    box-shadow: 5px 5px 10px black;
     background-color: rgb(100, 100, 100);
     color: white;
 }
@@ -68,7 +68,7 @@ body {
     margin-top: 2em;
     margin-bottom: 2em;
     border: 1px solid rgb(100, 100, 100);
-    box-shadow: 5px 10px black;
+    box-shadow: 5px 5px 10px black;
     background-color: rgb(100, 100, 100);
     color: white;
 }
