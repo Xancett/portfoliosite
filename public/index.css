@@ -35,6 +35,9 @@ body {
 .navbar .container-navigation ul li {
     padding-right: 4em;
     padding-top: 1em;
+}
+
+.navbar .container-navigation ul li a {
     color: white;
 }
 
@@ -73,14 +76,11 @@ body {
     color: white;
 }
 
+.container-projects a {
+    color: white;
+}
+
 .container-projects h1 {
     text-align: left;
     margin-bottom: 0;
 }
-
-/* Color pallet */
-/* Dark grey #3E3E3E */ 
-/* Light grey #8f91a2 */ 
-/* Dark blue #94b0da */ 
-/* Light blue #dcedff */
-/* Dark red #aa4465 */ 
