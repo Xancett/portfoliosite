@@ -39,15 +39,15 @@ body {
 }
 
 .container-job {
-    text-align: center;
-    padding-top: 5em;
-    padding-bottom: 3em;
-}
-
-.container-information {
+    text-align: left;
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.container-information {
+    padding-top: 1em;
 }
 
 .container-projects {
@@ -56,7 +56,7 @@ body {
 }
 
 .container-projects h1 {
-    text-align: center;
+    text-align: left;
 }
 
 /* Color pallet */
