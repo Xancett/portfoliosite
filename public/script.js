@@ -1,26 +1,36 @@
-// Get buttons that collapse
-var colButton = document.getElementsByClassName("collapsible");
-
-// Loop through all buttons
-for (var i = 0; i < colButton.length; i++) {
-    colButton[i].addEventListener("click", function () {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (i % 2 == 0) {
-            content = this.nextElementSibling.nextElementSibling
-        }
-        // Loop through all content and set to none before setting the current one
-        var infolist = document.getElementsByClassName("content");
-        for (var counter = 0; counter < infolist.length; counter++) {
-            if (infolist[counter] != content) {
-                infolist[counter].style.display = "none";
+// Initialize
+(function() {
+    // Grab each link that opens a modal
+    const modalLinks = document.querySelectorAll('#modal-link');
+    modalLinks.forEach(link => {
+        // Set event listener for each link
+        link.addEventListener('click', () => {
+            // Set link that source will use, change based on data-value
+            var newImage = "";
+            switch(link.getAttribute('data-value')) {
+                case 'hangman':
+                    newImage = "images/Hangman.png";
+                    break;
+                case 'directoryemail':
+                    newImage = "images/directorytoemail.png";
+                    break;
             }
-        }
-        // Set the display
-        if (content.style.display === "block") {
-            content.style.display = "none";
-        } else {
-            content.style.display = "block";
-        }
+            // Update the new image
+            document.getElementById("singleModal").children[1].setAttribute("src", newImage);
+            // Display the modal
+            document.getElementById("singleModal").style.display = "block";
+        })
     })
+    // Set event listener for the close button
+    document.getElementsByClassName("close")[0].addEventListener('click', () => {
+        document.getElementById("singleModal").style.display = "none";
+    })
+})();
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == document.getElementById("singleModal")) {
+    document.getElementById("singleModal").style.display = "none";
+  }
 }

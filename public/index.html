@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Site</title>
     <link rel="stylesheet" href="index.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <!-- Top navigation bar -->
@@ -61,7 +62,7 @@
                 The stats and summary page is for viewing interesting stats pulled from the database about the games that have been played.
             </p>
             <p><b>Tech: </b>HTML, CSS, NodeJS, Mongodb</p>
-            <p><b>Design diagram: </b>Link here</p>
+            <p><b>Design diagram: </b><a href="#/" style="color: #a1cbe2;" id='modal-link' data-value='hangman'>Link</a></p>
             <p><b>Github: </b><a href="https://github.com/Xancett/hangman" target="_blank" style="color: #a1cbe2;">Link</a></p>
             <p><b>Playtest: </b><a href="hangman/" target="_blank" style="color: #a1cbe2;">Link</a></p>
             <hr>
@@ -75,10 +76,16 @@
                 I wrote this to cut down on how much work was required before I could send out an email to multiple people in a list.
             </p>
             <p><b>Tech: </b>Python, BeautifulSoup4</p>
-            <p><b>Design diagram: </b>Link here</p>
+            <p><b>Design diagram: </b><a href="#/" style="color: #a1cbe2;" id='modal-link' data-value='directoryemail'>Link</a></p>
             <p><b>Github: </b><a href="https://github.com/Xancett/directoryemail" target="_blank" style="color: #a1cbe2;">Link</a></p>
             <hr>
         </div>
+    </div>
+    <!-- The Modal for Hangman Diagram -->
+    <div id="singleModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" src="images/Hangman.png">
+        <div id="caption"></div>
     </div>
 </body>
 </html>
